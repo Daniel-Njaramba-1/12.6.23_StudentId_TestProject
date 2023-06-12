@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lecturer_read_to_write_nav"
+    app:startDestination="@id/NFCwrite">
+
+    <activity
+        android:id="@+id/NFCwrite"
+        android:name="com.example.studentid.lecturermodule.NFCwrite"
+        android:label="NFCwrite" />
+</navigation>
